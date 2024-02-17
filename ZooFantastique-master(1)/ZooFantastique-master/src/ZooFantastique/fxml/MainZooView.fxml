@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ZooFantastique.view.MainMenuView">
+
+    <VBox prefHeight="600">
+        <HBox prefHeight="50" style="-fx-border-color: black;">
+            <Text fx:id="dateText">Date
+                <font>
+                    <Font name="Rockwell" size="29.0" />
+                </font>
+                <HBox.margin>
+                    <Insets left="20.0" top="10.0" />
+                </HBox.margin>
+            </Text>
+            <Text fx:id="zooNameText">Nom du zoo
+            <font>
+               <Font name="Rockwell" size="29.0" />
+            </font>
+            <HBox.margin>
+               <Insets left="300.0" top="10.0" />
+            </HBox.margin>
+            </Text>
+        </HBox>
+        <GridPane fx:id="enclosContainer" prefHeight="410" prefWidth="760">
+         <VBox.margin>
+            <Insets left="20.0" top="20.0" />
+         </VBox.margin></GridPane>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+          <Button fx:id="createEnclosButton" prefHeight="50.0" prefWidth="222.0" style="-fx-font-weight: bold; -fx-background-color: #ed9213;" text="Créer un enclos">
+            <font>
+               <Font size="19.0" />
+            </font></Button>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </HBox>
+    </VBox>
+
+</AnchorPane>

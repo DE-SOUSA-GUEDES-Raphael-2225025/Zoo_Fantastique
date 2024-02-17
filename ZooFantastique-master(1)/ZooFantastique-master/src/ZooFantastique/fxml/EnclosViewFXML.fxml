@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ZooFantastique.view.EnclosView">
+
+    <VBox>
+        <HBox prefHeight="41.0" prefWidth="269.0">
+
+        </HBox>
+        <HBox>
+            <GridPane minWidth="300" vgap="10.0">
+                    <Text GridPane.rowIndex="0"> Nom :
+                      <font>
+                         <Font size="16.0" />
+                      </font>
+                    </Text>
+                    <Text fx:id="enclosNameText" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+                </Text>
+
+
+                    <Text GridPane.rowIndex="1"> Superficie :
+                      <font>
+                         <Font size="16.0" />
+                      </font>
+                    </Text>
+                    <Text fx:id="enclosSuperficieText" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+                  </Text>
+
+                    <Text GridPane.rowIndex="2"> Nombre de créatures :
+                      <font>
+                         <Font size="16.0" />
+                      </font>
+                    </Text>
+                    <Text fx:id="enclosNbCreaturesText" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+                  </Text>
+
+
+                    <Text GridPane.rowIndex="3"> Maximum de créatures :
+                      <font>
+                         <Font size="16.0" />
+                      </font>
+                    </Text>
+                    <Text fx:id="enclosNbCreaturesMaxText" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+                  </Text>
+
+                    <Text GridPane.rowIndex="4">Degré de propreté :
+                      <font>
+                         <Font size="16.0" />
+                      </font>
+                    </Text>
+                    <Text fx:id="prepreteDegreText" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+                 </Text>
+            <columnConstraints>
+               <ColumnConstraints />
+               <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+            </rowConstraints>
+            <HBox.margin>
+               <Insets left="30.0" top="60.0" />
+            </HBox.margin>
+            </GridPane>
+            <GridPane fx:id="creaturesContainer" layoutX="261.0" layoutY="64.0" prefHeight="445.0" prefWidth="514.0" vgap="10.0">
+            <HBox.margin>
+               <Insets left="30.0" right="30.0" />
+            </HBox.margin></GridPane>
+        </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20">
+         <children>
+              <Button fx:id="returnButton" prefHeight="48.0" prefWidth="133.0" text="Retour">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+              <Button fx:id="cleanButton" prefHeight="48.0" prefWidth="115.0" text="Nettoyer">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+              <Button fx:id="feedAllButton" prefHeight="48.0" prefWidth="170.0" text="Nourrir les créatures">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+              <Button fx:id="addCreatureButton" prefHeight="46.0" prefWidth="179.0" text="Ajouter une créature">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+      </HBox>
+    </VBox>
+</AnchorPane>

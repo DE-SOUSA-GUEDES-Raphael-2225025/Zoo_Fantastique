@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ZooFantastique.view.ZooWelcomeView">
+
+    <VBox alignment="TOP_CENTER" prefHeight="600" prefWidth="800" styleClass="welcomeBg" stylesheets="@style.css">
+        <Text fill="WHITE" style="-fx-font-weight: bolder; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">ZOO FANTASTIQUE
+             <font>
+                <Font size="61.0" />
+             </font>
+         <VBox.margin>
+            <Insets top="50.0" />
+         </VBox.margin>
+        </Text>
+        <Text style="-fx-font-weight: bolder; -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.8), 10, 0, 0, 0);" wrappingWidth="278.634765625">Nom de votre Zoo : 
+         <VBox.margin>
+            <Insets bottom="5.0" top="200.0" />
+         </VBox.margin>
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+        <TextField fx:id="zooNameArea" maxWidth="279.0" prefHeight="44.0" prefWidth="279.0">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+        <Button fx:id="confirmEditButton" prefHeight="32.0" prefWidth="279.0" style="-fx-background-color: #ed9213; -fx-font-size: 20; -fx-font-weight: bold;" text="Confirmer">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Button>
+    </VBox>
+</AnchorPane>

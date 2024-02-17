@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ZooFantastique.view.MeuteView">
+    <VBox>
+        <GridPane fx:id="lycantropeContainer" prefHeight="300" hgap="5" vgap="5">
+         <VBox.margin>
+            <Insets left="30.0" right="30.0" top="30.0" />
+         </VBox.margin></GridPane>
+       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0">
+           <Button fx:id="backButton" prefHeight="47.0" prefWidth="190.0" text="Retour" />
+       </HBox>
+    </VBox>
+</AnchorPane>

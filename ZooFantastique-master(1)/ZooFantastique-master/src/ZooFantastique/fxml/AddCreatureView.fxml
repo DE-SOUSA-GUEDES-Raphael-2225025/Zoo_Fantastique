@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ZooFantastique.view.AddCreatureView">
+    <VBox>
+        <HBox fx:id="buttonList" alignment="CENTER" prefHeight="550" prefWidth="800" spacing="10"/>
+        <HBox alignment="CENTER" prefHeight="100">
+            <Button fx:id="retourButton" prefHeight="50.0" prefWidth="223.0" text="Retour" />
+        </HBox>
+    </VBox>
+</AnchorPane>

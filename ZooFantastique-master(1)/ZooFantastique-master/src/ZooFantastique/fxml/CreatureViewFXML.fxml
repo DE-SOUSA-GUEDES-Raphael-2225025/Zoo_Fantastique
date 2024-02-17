@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ZooFantastique.view.CreatureView">
+   <VBox prefHeight="600.0" prefWidth="800.0">
+      <HBox prefHeight="514.0" prefWidth="800.0">
+         <VBox fx:id="creatureImageContainer" prefHeight="513.0" prefWidth="445.0">
+            <HBox.margin>
+               <Insets bottom="50.0" left="50.0" top="50.0" />
+            </HBox.margin>
+         </VBox>
+         <VBox>
+            <GridPane alignment="CENTER_LEFT" hgap="7.0" prefHeight="513.0" prefWidth="388.0" vgap="10.0">
+               <Text style="-fx-font-weight: bold;" GridPane.rowIndex="0">Nom
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creatureNameText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+
+
+               <Text style="-fx-font-weight: bold;" GridPane.rowIndex="1">Sexe
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creatureSexeText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+
+               <Text style="-fx-font-weight: bold;" GridPane.rowIndex="2">Etat
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creatureEtatText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+
+               <Text style="-fx-font-weight: bold;" GridPane.rowIndex="3">Poids (Kg)
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creaturePoidsText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+
+               <Text style="-fx-font-weight: bold;" GridPane.rowIndex="4">Taille (m)
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creatureSizeText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+
+               <Text style="-fx-font-weight: bold;" GridPane.rowIndex="5">Age
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creatureAgeText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+
+               <Text style="-fx-font-weight: bold;" GridPane.rowIndex="6">Sante
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creatureHealthText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+
+               <columnConstraints>
+                  <ColumnConstraints prefWidth="200" />
+                  <ColumnConstraints prefWidth="250" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+               </rowConstraints>
+            </GridPane>
+
+            <GridPane fx:id="lycanthropeStatsContainer" alignment="CENTER_LEFT" prefHeight="200" prefWidth="388.0" vgap="7">
+               <Text style="-fx-font-weight: bold;" text="Force" GridPane.rowIndex="0">Force
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creatureForceText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+
+               <Text style="-fx-font-weight: bold;" GridPane.rowIndex="1">Domination
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creatureDominationText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+
+               <Text style="-fx-font-weight: bold;" GridPane.rowIndex="2">Rang
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creatureRangText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+
+               <Text style="-fx-font-weight: bold;" GridPane.rowIndex="3">Niveau
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Text>
+               <Text fx:id="creatureLevelText" fill="#fcbe2f" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <font>
+                     <Font size="26.0" />
+                  </font></Text>
+               <columnConstraints>
+                  <ColumnConstraints prefWidth="200" />
+                  <ColumnConstraints prefWidth="250" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints />
+               </rowConstraints>
+            </GridPane>
+            
+            <VBox alignment="CENTER" prefHeight="105.0" prefWidth="347.0">
+               <Text fx:id="creatureHungryText" fill="#ee8484" style="-fx-font-weight: bold;">FAIM
+                  <font>
+                     <Font size="24.0" />
+                  </font></Text>
+               <Text fx:id="creatureSleepText" fill="#51f2c9" style="-fx-font-weight: bold;" text="DORS">
+                  <font>
+                     <Font size="24.0" />
+                  </font></Text>
+            </VBox>
+            <padding>
+               <Insets left="15.0" />
+            </padding>
+         </VBox>
+      </HBox>
+
+      <HBox fx:id="actionButtonList" alignment="CENTER" prefHeight="89.0" prefWidth="800.0" spacing="15">
+         <Button fx:id="returnButton" prefHeight="40.0" prefWidth="120.0" text="Retour" />
+         <Button fx:id="transfererButton" prefHeight="42.0" prefWidth="118.0" text="Transférer" />
+      </HBox>
+   </VBox>
+</AnchorPane>

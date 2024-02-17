@@ -1,0 +1,11 @@
+.welcomeBg{
+    -fx-background-image: url("/zooBg.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+.enclosTypeText{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-fill: #ffffff;
+ }
+

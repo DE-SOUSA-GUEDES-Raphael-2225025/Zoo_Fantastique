@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ZooFantastique.view.CreateEnclosView">
+    <VBox alignment="CENTER" prefHeight="386.0" prefWidth="564.0">
+        <Label prefHeight="37.0" prefWidth="256.0" text="Création d'un enclos">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+        <HBox alignment="CENTER">
+            <Label text="Nom : ">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+            <TextField fx:id="enclosName" prefHeight="25.0" prefWidth="183.0" />
+        </HBox>
+        <HBox alignment="CENTER">
+            <Label text="Type : ">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <ChoiceBox fx:id="typeEnclosDispo" prefHeight="25.0" prefWidth="186.0" />
+        </HBox>
+        <Button fx:id="createButton" prefHeight="31.0" prefWidth="243.0" text="Créer">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+    </VBox>
+</AnchorPane>
